@@ -1,0 +1,97 @@
+[
+  {
+    "id": "priya",
+    "name": "Priya Nair",
+    "tickets": [
+      {
+        "date": "2026-07-28",
+        "customer_message": "My WiFi drops every evening after 7\u202fPM on the NetNest Hub X2, and a simple restart doesn't bring it back. I'm fed up with this happening every night.",
+        "agent_reply": "We\u2019re sorry for the inconvenience, Priya. Please try power\u2011cycling the router for 30\u202fseconds and ensure the firmware is up to date.",
+        "mood": "frustrated",
+        "resolved": false
+      },
+      {
+        "date": "2026-08-05",
+        "customer_message": "I changed the WiFi channel to 11 as you suggested, but the connection still cuts out around 8\u202fPM. This is getting ridiculous.",
+        "agent_reply": "Thanks for trying that. We\u2019ll check for any interference on the 2.4\u202fGHz band and will push a diagnostic from our side.",
+        "mood": "annoyed",
+        "resolved": false
+      },
+      {
+        "date": "2026-08-16",
+        "customer_message": "I installed firmware version 2.3 as you asked, and the WiFi stayed stable for about two weeks. Looks like it finally worked.",
+        "agent_reply": "Great to hear the update helped! Let us know if the issue resurfaces.",
+        "mood": "relieved",
+        "resolved": true
+      },
+      {
+        "date": "2026-08-27",
+        "customer_message": "The drops are back again this evening, same time, even after the 2.3 firmware. I'm tired of repeating this.",
+        "agent_reply": "We apologize for the repeat problem. We'll schedule a remote line test and consider a hardware replacement if needed.",
+        "mood": "irritated",
+        "resolved": false
+      },
+      {
+        "date": "2026-09-09",
+        "customer_message": "I did a full factory reset and re\u2011configured the router, but the WiFi still disappears after 7\u202fPM. This is unacceptable.",
+        "agent_reply": "Understood. We\u2019ll dispatch a technician to inspect your line and will send you a replacement NetNest Hub X3 if the router is faulty.",
+        "mood": "angry",
+        "resolved": false
+      },
+      {
+        "date": "2026-09-22",
+        "customer_message": "The technician replaced the Hub X2 with a Hub X3 today and the WiFi has been stable all night. Finally, thank you.",
+        "agent_reply": "Glad the new device resolved the issue. Please let us know if anything else comes up.",
+        "mood": "calm",
+        "resolved": true
+      }
+    ]
+  },
+  {
+    "id": "rohan",
+    "name": "Rohan Mehta",
+    "tickets": [
+      {
+        "date": "2026-07-30",
+        "customer_message": "I'm seeing 120\u2011150\u202fms latency to the PlayStation Network on my NetNest NXR\u20115400 (firmware 3.2.1) and it's killing my gaming sessions.",
+        "agent_reply": "Our diagnostics show congestion on the NA peering path; enable QoS on the router and set UDP traffic priority to high for ports 80\u2011443. Reboot the device after saving.",
+        "mood": "calm",
+        "resolved": true
+      },
+      {
+        "date": "2026-08-10",
+        "customer_message": "Port 3074 UDP remains closed even after adding a static NAT rule on the NXR\u20115400.",
+        "agent_reply": "Delete the existing rule, then create a new NAT entry: Protocol UDP, External Port 3074, Internal IP of your console, Internal Port 3074. Apply firmware 3.2.2 and restart the router.",
+        "mood": "impatient",
+        "resolved": true
+      },
+      {
+        "date": "2026-08-28",
+        "customer_message": "I switched my DNS to 1.1.1.1 on the router; the support portal flagged it, but it works fine now.",
+        "agent_reply": "Noted. Custom DNS entries are supported; no further action required from our side.",
+        "mood": "calm",
+        "resolved": true
+      },
+      {
+        "date": "2026-09-20",
+        "customer_message": "After the QoS and NAT changes, latency still spikes to 200\u202fms every few minutes.",
+        "agent_reply": "We cleared a routing anomaly on our edge node that affected your subnet; monitor for the next 24\u202fh and let us know if spikes return.",
+        "mood": "calm",
+        "resolved": true
+      }
+    ]
+  },
+  {
+    "id": "ananya",
+    "name": "Ananya Iyer",
+    "tickets": [
+      {
+        "date": "2026-08-04",
+        "customer_message": "Hi, I just got my NetNest N3000 router and I'm trying to set it up via the NetNest app, but it keeps showing 'Device not found' even though the lights are on. Can you help?",
+        "agent_reply": "Hello Ananya, please make sure Bluetooth is enabled and that the router is in pairing mode (press the WPS button for 5 seconds); then restart the app and it should detect the N3000 (firmware v2.1.4). Let me know if you still see the error.",
+        "mood": "confused",
+        "resolved": true
+      }
+    ]
+  }
+]

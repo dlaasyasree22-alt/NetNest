@@ -1,0 +1,137 @@
+{
+  "cust-bre-v3": {
+    "name": "Bre",
+    "description": "Chronic intermittent disconnects; false outage reports; cancelled tech confusion",
+    "demo_prompt": "It was made a big deal of that I wasn't using the app, yet it doesn't notice when my services are down while the phone line does. What's up with that? And these non-stop outages??",
+    "turns": [
+      {
+        "timestamp": "2017-10-06T18:17:25+00:00",
+        "customer_message": "The XFINITY problems keep going, the 'resets' help momentarily, then its out again later. This is real annoying. Wasn't an issue before.",
+        "agent_response": "I will be more than happy to take a closer look at your Comcast service. Can you please send a DM when you have a moment? -JB",
+        "tweet_id": 728758
+      },
+      {
+        "timestamp": "2017-10-06T18:50:12+00:00",
+        "customer_message": "I've called the system multiple times in previous weeks. Today I do not have time before I go to work & neither service is working.",
+        "agent_response": "I will be more than happy to check on everything for you and get more information. Can you send a DM? -JB",
+        "tweet_id": 728757
+      },
+      {
+        "timestamp": "2017-10-22T21:05:20+00:00",
+        "customer_message": "Hey how would I know my internet is down if I have the modem unplugged? rudeservices constantlydown whydoipaysomuch?",
+        "agent_response": "Yikes, Bre please send us a direct message with your full name, account number, and phone number and I can assist",
+        "tweet_id": 1010977
+      },
+      {
+        "timestamp": "2017-10-24T01:56:32+00:00",
+        "customer_message": "Again my internet is down. Today it's \"an outtage in our area\", if it's not my personal equipment it's a company issue. lame",
+        "agent_response": "I would be happy to look into this. I sent you a DM. - GW",
+        "tweet_id": 1111566
+      },
+      {
+        "timestamp": "2017-10-24T04:09:02+00:00",
+        "customer_message": "The automated service said there was nothing anyone could do. That it was an outtage in the area.",
+        "agent_response": "",
+        "tweet_id": 1111565
+      },
+      {
+        "timestamp": "2017-10-24T19:09:58+00:00",
+        "customer_message": "2 days in a row Comcast says they have \"an outtage in my area\", maybe if it wasn't going down often w/o an outtage it'd be acceptable...",
+        "agent_response": "I am sorry for the service trouble. Can you please send along your account number and service address via DM so I can assist? -Joe",
+        "tweet_id": 1174228
+      },
+      {
+        "timestamp": "2017-10-24T20:14:58+00:00",
+        "customer_message": "The automated service says there's nothing any one can do for the problem today. It just ruined my timed test.",
+        "agent_response": "I am sorry for this, I can look into the matter further and see if there's more information I can find. -Joe",
+        "tweet_id": 1174226
+      },
+      {
+        "timestamp": "2017-11-15T08:18:24+00:00",
+        "customer_message": "I'm so glad I talked to a very helpful agent earlier today because my Xfinity internet has gone down 4x today. Saturday can't come soon enough!",
+        "agent_response": "Hello. I apologize for the interruptions in service. Can you please DM me your account # or full address, telephone number and name on the account, and I'll look into this for you? - Kerry",
+        "tweet_id": 2463994
+      },
+      {
+        "timestamp": "2017-11-15T19:29:37+00:00",
+        "customer_message": "I tried that, last month. Wasn't helped at all because when someone looked, 6 hours later \"everything was okay\". Just as now the app says it's connected but the equiment says no.",
+        "agent_response": "I understand but I would like a chance to assist you here. Please, DM me if you change your mind. Thanks.-JC",
+        "tweet_id": 2463993
+      },
+      {
+        "timestamp": "2017-11-17T01:23:15+00:00",
+        "customer_message": "I woke up to 2 voicemails from comcast saying I could cancel my appt for Sat to fix the outtage issue. All day the net has been down, wtf? I thought the problem was solved?",
+        "agent_response": "I can absolutely look into this for you. Please DM your full, service address so I can run a few diagnostic tests and see what's going on. - KM",
+        "tweet_id": 2591303
+      },
+      {
+        "timestamp": "2017-11-17T01:38:08+00:00",
+        "customer_message": "That's been done, multiple times this week actually. I have an appointment Saturday bcuz it's the closest day I can be home for the tech. Today & yesterday they say it's an outtage & nothing can be done.",
+        "agent_response": "I understand where you're coming from. If you change your mind, please reach out at any time and I can look into everything further for you. - KM",
+        "tweet_id": 2591302
+      }
+    ]
+  },
+  "cust-gavin-v3": {
+    "name": "Gavin",
+    "description": "Technical user; Motorola SB6121 modem; upstream bonding failure post-outage",
+    "demo_prompt": "The send icon is blinking blue, the receive icon is green, the link icon is blue, and the online icon is off. My modem is Motorola model sb6121.",
+    "turns": [
+      {
+        "timestamp": "2017-11-23T15:16:28+00:00",
+        "customer_message": "could you give when estimate of when the internet will be up? In my area, my area code is 49028",
+        "agent_response": "I am sorry for the poor experience. Can you please DM/PM the full service address and name on the account, as we assist customers\u2019 countrywide. ^CD",
+        "tweet_id": 695039
+      },
+      {
+        "timestamp": "2017-11-23T20:44:13+00:00",
+        "customer_message": "the receive icon on my Motorola modem model:sb6121 is flashing blue, could you help me fix this problem?",
+        "agent_response": "I would be happy to look into this for you. Can I please have the full address on the account? ^RT",
+        "tweet_id": 113122
+      },
+      {
+        "timestamp": "2017-11-24T17:26:25+00:00",
+        "customer_message": "does my area still have an outage if if there is do you have an estimate of when it will be resolved!",
+        "agent_response": "Good afternoon Gavin, one moment while I look into this for you. ^JF",
+        "tweet_id": 156330
+      },
+      {
+        "timestamp": "2017-11-24T17:30:50+00:00",
+        "customer_message": "Thank you, so much",
+        "agent_response": "You're welcome ^JF",
+        "tweet_id": 156329
+      },
+      {
+        "timestamp": "2017-11-24T21:16:51+00:00",
+        "customer_message": "when I turn on my modem and router I can now see my internet but I can load any thing, is charter still working on the issue?",
+        "agent_response": "One moment while I look into this for you. ^JF",
+        "tweet_id": 169251
+      },
+      {
+        "timestamp": "2017-11-24T21:26:53+00:00",
+        "customer_message": "I did reboot the modem and router, it does say I have 3 bars but it doesn\u2019t load anything",
+        "agent_response": "Are there any lights on the front of the modem? ^JF",
+        "tweet_id": 170667
+      }
+    ]
+  },
+  "cust-jordan-v3": {
+    "name": "Jordan",
+    "description": "Tried activating extra room box ($9/mo); failed on SSN mismatch across 2 reps; boxed for return",
+    "demo_prompt": "I just packaged the box up for return. 2 phone sessions, 2 different reps, same SSN roadblock. Can you confirm the return label instructions?",
+    "turns": [
+      {
+        "timestamp": "2017-11-17T17:32:53+00:00",
+        "customer_message": "congratulations, you successfully foiled my plot to bring cable TV into one more room in my house. and it only costs you $9/mo WereNotHappyUntilYoureNotHappy",
+        "agent_response": "Hello, is there anything that I might assist you with at this time? -JW",
+        "tweet_id": 2629218
+      },
+      {
+        "timestamp": "2017-11-17T17:42:47+00:00",
+        "customer_message": "I've just spent phone time. Apparently, you don't have a mechanism for activating new devices if the SSN info in your records is wrong (again). I'm fine to do without the extra device.",
+        "agent_response": "Do you still have the box with you? I should be able to help you activate it here through Twitter. -JW",
+        "tweet_id": 2629217
+      }
+    ]
+  }
+}

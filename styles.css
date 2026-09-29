@@ -1,0 +1,142 @@
+/* ==========================================================================
+   NETNEST DESIGN SYSTEM - STREAMLIT COMPONENT THEME
+   Dark Neon Glassmorphism & Custom Typography
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap');
+
+:root {
+  --bg-dark: #0B0B1A;
+  --bg-card: rgba(22, 18, 48, 0.75);
+  --neon-cyan: #00E5FF;
+  --neon-violet: #7C3AED;
+  --neon-pink: #FF2E93;
+  --neon-lime: #B6FF3B;
+  --text-main: #F8FAFC;
+  --text-sub: #94A3B8;
+  --radius: 16px;
+}
+
+/* Base Canvas & Streamlit App Container */
+html, body, .stApp, [data-testid="stAppViewContainer"] {
+  background-color: var(--bg-dark) !important;
+  background: radial-gradient(circle at 20% 20%, #1A0B36 0%, #0B0B1A 60%, #05040F 100%) !important;
+  color: var(--text-main) !important;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
+/* Hide Default Streamlit Chrome */
+div[data-testid="stHeader"],
+div[data-testid="stToolbar"],
+div[data-testid="stDecoration"],
+#MainMenu,
+footer,
+.stAppHeader,
+.stAppToolbar {
+  display: none !important;
+}
+
+/* Padding & Container Limits */
+.block-container {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  max-width: 1280px !important;
+}
+
+/* Typography Headings */
+h1, h2, h3, .stTitle {
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-weight: 800 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Sidebar Custom Styling */
+[data-testid="stSidebar"] {
+  background: rgba(13, 10, 32, 0.95) !important;
+  border-right: 1px solid rgba(0, 229, 255, 0.2) !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown, 
+[data-testid="stSidebar"] p, 
+[data-testid="stSidebar"] span {
+  color: var(--text-main) !important;
+}
+
+/* Native Chat Messages Styling */
+[data-testid="stChatMessage"] {
+  background: var(--bg-card) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(0, 229, 255, 0.2) !important;
+  border-radius: var(--radius) !important;
+  padding: 16px 20px !important;
+  margin-bottom: 14px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  color: var(--text-main) !important;
+}
+
+/* User Chat Message Distinction */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"]) {
+  background: linear-gradient(135deg, rgba(124, 61, 237, 0.25), rgba(91, 33, 182, 0.35)) !important;
+  border: 1px solid rgba(124, 61, 237, 0.4) !important;
+}
+
+/* Assistant Chat Message Distinction */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-assistant"]) {
+  background: rgba(18, 14, 42, 0.85) !important;
+  border: 1px solid rgba(0, 229, 255, 0.3) !important;
+}
+
+/* Captions inside Chat Messages */
+[data-testid="stChatMessage"] [data-testid="stCaptionContainer"] {
+  color: var(--neon-cyan) !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  margin-top: 6px !important;
+}
+
+/* Native Chat Input Box */
+[data-testid="stChatInput"] {
+  background: rgba(18, 14, 40, 0.9) !important;
+  border: 1px solid rgba(0, 229, 255, 0.3) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.15) !important;
+}
+
+[data-testid="stChatInput"] textarea {
+  color: #FFFFFF !important;
+}
+
+/* Streamlit Buttons / Suggested Prompt Chips */
+.stButton > button {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(0, 229, 255, 0.3) !important;
+  color: #F8FAFC !important;
+  border-radius: 24px !important;
+  padding: 8px 18px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  transition: all 200ms ease !important;
+}
+
+.stButton > button:hover {
+  background: rgba(0, 229, 255, 0.15) !important;
+  border-color: var(--neon-cyan) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3) !important;
+}
+
+/* Streamlit Alerts / Info / Warning / Error */
+[data-testid="stAlert"] {
+  border-radius: var(--radius) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+/* Expander Styling */
+.stExpander {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+}
